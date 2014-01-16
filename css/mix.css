@@ -1,0 +1,150 @@
+
+/*demos*/
+
+audio.demo{
+    height:auto;
+    width:100%;
+    text-align:center;
+    
+}
+
+.titulo
+{
+    background:#12AA5B;
+    border-radius:30px;
+    color:white;
+    text-align:center;
+    text-shadow:2px 2px #000;
+        
+}
+
+.titulor
+{
+    background:#A43FDA;
+    border-radius:30px;
+    color:white;
+    text-align:center;
+    text-shadow:2px 2px #000;
+}
+
+.titulos
+{
+    background:#E8D124;
+    border-radius:30px;
+    color:green;
+    text-align:center;
+    text-shadow:2px 2px #fff;
+}
+
+/* fotos */
+
+article.fotito{
+	display: inline-block;
+}
+body.demo{
+	background:lightgray;
+	color:white;
+	font-family:Arial;
+	font-size:16px;
+	margin:0;
+	text-shadow:1px 1px 0 rgba(0,0,0,.3);
+}
+
+
+#websites{
+	font-size:0;
+	text-align:center;
+}
+#websites article{
+	background:#ccc;
+	border:2px solid lightgray;
+	border-radius:5px;
+	color: black;
+	font-size:15px;
+	margin:5px;
+	padding:10px;
+	width:200px;
+}
+#websites img {
+	-webkit-transition:.2s;
+}
+#websites article:hover img{
+	-webkit-transform:scale(1.1);
+}
+
+/*contactos*/
+
+h2{
+    color:white;
+    text-shadow:1px 2px red;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+.formulario {
+    border: 1px solid green;
+    display:inline-block;
+    width:60%;
+    color: white;
+    font-family:Arial;
+    background:#20BB51;
+    border-radius:20px;
+}
+#lateral{
+        width: 30%;
+        display: none;
+    margin:0 20px;
+    color:white;
+    text-shadow:1px 1px blue;
+    font-family:georgia;
+    
+}
+#lateral, .formulario{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea{
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:14px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+#contenido{
+    display: inline-block;
+}
+@media screen and (max-width:700px){
+    section.formulario{
+        width:100%;
+    }
+
+    #lateral{
+        display: block;
+        width:100%;
+    }
+}
